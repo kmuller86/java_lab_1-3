@@ -44,6 +44,20 @@ public class Main {
         *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
+        // a)
+        int a = 10, b = 2;
+        int wynik1 = a+b;
+        System.out.println("wynik1 = " + wynik1);
+        int wynik2 = a -b;
+        System.out.println("wynik2 =" + wynik2);
+        int wynik3 = a * b;
+        System.out.println("wynik3 = "+ wynik3);
+        int wynik4 = a / b;
+        System.out.println("wynik4 = " + wynik4);
+        int wynik5 = b % a;
+        System.out.println("wynik5 = " + wynik5);
+
+        // b)
 
 
 
