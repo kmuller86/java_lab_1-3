@@ -11,22 +11,31 @@ public class Main {
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
         byte zmiennaByte;
         zmiennaByte = 1;
+        System.out.println("zmiennaByte = " + zmiennaByte);
         short zmiennaShort;
         zmiennaShort = 31;
+        System.out.println("zmiennaShort = " + zmiennaShort);
         int zmiennaint;
         zmiennaint = 112341;
+        System.out.println("zmiennaint = " + zmiennaint);
         long zmiennalong;
         zmiennalong = 123456789L;
+        System.out.println("zmiennalong = " + zmiennalong);
         float zmiennafloat;
         zmiennafloat = 123.67f;
+        System.out.println("zmiennafloat = " + zmiennafloat);
         double zmiennadouble;
         zmiennadouble = 99989.96543;
+        System.out.println("zmiennadouble +" + zmiennadouble);
         boolean zmiennaboolean;
         zmiennaboolean= true;
+        System.out.println("zmiennaboolean = " + zmiennaboolean);
         char zmiennachar;
         zmiennachar = 'f';
+        System.out.println("zmiennachar = " + zmiennachar);
         String zmiennastring;
         zmiennastring = "Hello world!";
+        System.out.println("zmiennastring = " +zmiennastring);
 
 
         /*
