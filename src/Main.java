@@ -58,6 +58,18 @@ public class Main {
         System.out.println("wynik5 = " + wynik5);
 
         // b)
+        double x = 125.50 , y = 62.75;
+        double wynik6 = x+y;
+        System.out.println("wynik6 = " + wynik6);
+        double wynik7 = x-y;
+        System.out.println("wynik7 = " + wynik7);
+        double wynik8 = x * y;
+        System.out.println("wynik8 = " + wynik8);
+        double wynik9 = x/y;
+        System.out.println("wynik9 = " + wynik9);
+        double wynik10 = y%x;
+        System.out.println("wynik10 = " + wynik10);
+
 
 
 
