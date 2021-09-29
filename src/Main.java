@@ -22,10 +22,35 @@ public class Main {
         }
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
+        Scanner scan1 = new Scanner(System.in);
+        System.out.println("Podaj nr indeksu: ");
+        int liczba1 = scan.nextInt();
+        int wynik1 = liczba1 / 2;
+        if (wynik1 % 2== 0)
+
+        {
+            System.out.println("Numer indeksu jest parzysty");
+        }
+        else{
+            System.out.println("Numer indeksu nie jest parzysty");
+        }
+
+
 
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
-
+        Scanner scan2 = new Scanner(System.in);
+        System.out.println("Podaj liczbę zmiennoprzecinkową: ");
+        double liczba2 = scan.nextDouble();
+        System.out.println("Podaj drugą liczbe zmiennoprzecnkową: ");
+        double liczba3 = scan.nextDouble();
+        double wynik2 = liczba2 - liczba3;
+        if (wynik2 < 0){
+            System.out.println("Wynik jest ujemny");
+        }
+        else{
+            System.out.println("Wynik jest dodatni");
+        }
     }
 }
