@@ -8,6 +8,11 @@ public class Main {
 
         /* zad1. stworzyć tablicę typu double 5-cio elementową,
         przypisać do niej wartości i wyświetlić */
-
+        double[] tablica = new double[5];
+        for (double i = 0; i < 5; i++)
+            tablica [(int) i] = i +1;
+        double zmienna = tablica[3];
+        for (int i = 0; i < 5; i++)
+            System.out.println("Kolejna komórka to: " + tablica[i]);
     }
 }
